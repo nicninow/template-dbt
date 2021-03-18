@@ -1,0 +1,7 @@
+# https://pip.pypa.io/en/stable/user_guide/#requirements-files
+# python -m pip install -r requirements.txt
+
+# The agate upper bound is a temporary fix for dbt installation
+# https://github.com/fishtown-analytics/dbt/issues/3160
+agate==1.6.1
+dbt
